@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/worker",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Background jobs (Graphile Worker): agent runs, scheduled routines, memory summarization, idle computer cleanup.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/worker] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/worker] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/worker] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/worker] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/worker] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

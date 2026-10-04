@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/agent",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Agent runtime: run loop, tools, model router (AI SDK: xAI Grok default + Anthropic/OpenAI/OpenRouter/Ollama), prompts.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/agent] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/agent] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/agent] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/agent] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/agent] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

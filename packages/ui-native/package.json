@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/ui-native",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React Native components for mobile (NativeWind) built on the same design tokens.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/ui-native] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/ui-native] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/ui-native] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/ui-native] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/ui-native] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

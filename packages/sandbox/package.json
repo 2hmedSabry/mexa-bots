@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/sandbox",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Computer provider abstraction: local-docker / docker-remote / e2b / daytona / fly + agentd client (exec, fs, browser, screen, input).",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/sandbox] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/sandbox] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/sandbox] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/sandbox] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/sandbox] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

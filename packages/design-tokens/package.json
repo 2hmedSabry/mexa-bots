@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/design-tokens",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Colors, typography (Arabic + Latin), spacing, icons → generated for Tailwind and React Native.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/design-tokens] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/design-tokens] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/design-tokens] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/design-tokens] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/design-tokens] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

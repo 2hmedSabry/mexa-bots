@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Desktop app (Electron): macOS / Windows / Linux, auto-update, local mode via Docker.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/desktop] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/desktop] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/desktop] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/desktop] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/desktop] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

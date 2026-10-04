@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/api",
+  "version": "0.0.0",
+  "private": true,
+  "description": "API server (Hono + oRPC + WebSocket): auth, bots, conversations, runs, approvals, realtime event streaming.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/api] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/api] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/api] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/api] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/api] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

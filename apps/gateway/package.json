@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/gateway",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Messaging channels gateway (Telegram / WhatsApp / Slack webhooks) bridging external chats to bots. (Phase 4)",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/gateway] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/gateway] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/gateway] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/gateway] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/gateway] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

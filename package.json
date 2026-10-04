@@ -1,0 +1,34 @@
+{
+  "name": "mexa-bots",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Mexa Bots — persistent AI teammates with their own cloud computer. Monorepo: API, worker, web, desktop (Electron), mobile (Expo: Android + iOS).",
+  "packageManager": "pnpm@10.17.0",
+  "engines": {
+    "node": ">=22.12.0",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,yml,yaml}\"",
+    "db:migrate": "pnpm --filter @mexa/db run migrate",
+    "db:studio": "pnpm --filter @mexa/db run studio",
+    "infra:up": "docker compose -f infra/compose/docker-compose.dev.yml up -d",
+    "infra:down": "docker compose -f infra/compose/docker-compose.dev.yml down",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.0",
+    "prettier": "^3.6.0",
+    "turbo": "^2.5.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/auth",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Shared Better Auth config (server/client): email+password, Google, Apple, passkeys, organizations, device sessions.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/auth] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/auth] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/auth] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/auth] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/auth] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/site",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Marketing website + public docs (Astro).",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/site] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/site] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/site] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/site] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/site] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

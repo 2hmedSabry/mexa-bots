@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Message catalogs (ar, en), RTL helpers, number/date formatting.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/i18n] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/i18n] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/i18n] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/i18n] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/i18n] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

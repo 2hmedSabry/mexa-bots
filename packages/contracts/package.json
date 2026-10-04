@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/contracts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Shared contracts: zod schemas, oRPC router types, realtime event types. No runtime deps.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/contracts] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/contracts] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/contracts] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/contracts] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/contracts] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/mobile",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Mobile app (Expo / React Native): Android + iOS, push, live computer view + takeover, dictation.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/mobile] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/mobile] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/mobile] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/mobile] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/mobile] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/ui",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React components for web/desktop (shadcn/ui + Tailwind) with full RTL support.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/ui] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/ui] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/ui] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/ui] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/ui] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/test-utils",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Testing utilities: factories, fixtures, mock model/computer providers.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/test-utils] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/test-utils] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/test-utils] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/test-utils] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/test-utils] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Typed oRPC client + realtime (WS/SSE) client used by web, desktop and mobile.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/api-client] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/api-client] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/api-client] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/api-client] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/api-client] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

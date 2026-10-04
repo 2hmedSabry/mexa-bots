@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/domain",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Business logic: bots, conversations, memory, routines, approvals, billing. Framework-agnostic.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/domain] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/domain] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/domain] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/domain] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/domain] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}

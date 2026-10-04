@@ -1,0 +1,15 @@
+{
+  "name": "@mexa/web",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Web SPA (React 19 + Vite + Tailwind). The same UI is reused as the desktop renderer.",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"[@mexa/web] build — scaffold only; implemented in roadmap phase\"",
+    "dev": "echo \"[@mexa/web] dev — scaffold only\"",
+    "lint": "echo \"[@mexa/web] lint — scaffold only\"",
+    "typecheck": "echo \"[@mexa/web] typecheck — scaffold only\"",
+    "test": "echo \"[@mexa/web] test — scaffold only\"",
+    "clean": "rm -rf dist build .turbo"
+  }
+}
