@@ -23,8 +23,15 @@
 - `infra/deploy/caddy/Caddyfile`، وأدلة `infra/docker` و`infra/computer-image` (مواصفات فقط).
 - `.github`: workflow للـ CI، قوالب PR وissues، CODEOWNERS، dependabot.
 
-### 4) وثائق الخطة (`docs/plan`)
-انظر [الفهرس](./plan/README.md). كل وثيقة تتبع [ملخص القرارات](./plan/00-decisions-brief.md).
+### 4) وثائق الخطة (`docs/plan`) — مكتملة
+- 19 وثيقة (00 إلى 18) مع [الفهرس](./plan/README.md)، وكلها تتبع [ملخص القرارات](./plan/00-decisions-brief.md).
+- تغطي: الرؤية، المعمارية، الـ monorepo، الحزمة التقنية، الميزات، نموذج البيانات، الـ API، الوكيل، الكمبيوتر، الموبايل، الديسكتوب، الويب، الموصلات، الأمان، DevOps، الاختبار، خارطة الطريق، الفريق.
+
+### 5) قرارات المعمارية (`docs/adr`) — 10 قرارات
+انظر [السجل](./adr/README.md).
+
+### 6) ملفات المستودع
+`README.md` ثنائي اللغة، `CONTRIBUTING.md`، `SECURITY.md`.
 
 ## ما لم يتم بعد
 - لم يُنفَّذ أي كود تطبيقي، ولم يُشغَّل `pnpm install` ولا أي فحص CI.
